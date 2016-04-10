@@ -1,0 +1,197 @@
+/* Global Rules */
+
+@font-face{
+    font-family: font;
+    src:url(../media/fonts/LondonBetween.ttf);
+}
+@font-face{
+    font-family: fonta;
+    src:url(../media/fonts/fontastique.ttf);
+}
+*{
+    font-family: font;
+}
+h1{
+    font-size: 3em;
+}
+h1.title{
+    text-align: center;
+}
+h2{
+    font-size: 1.5em;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+a:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+p{
+    font-size: 1.4em;
+    text-align: justify;
+}
+
+/* Global Properties */
+.tathva{
+    font-family: fonta;
+    font-size: 2.5em;
+    margin-top: 25px;
+}
+#organizers a, #contact a{
+    color: #000000;
+}
+#organizers a:hover, #contact a:hover{
+    text-decoration: none;
+}
+
+/* Loader */
+#loader{
+    position: fixed;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    z-index:1000;
+    background: #FFFFFF;
+}
+#loader #anim{
+    width:100px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-left: -100px;
+    margin-top: -150px;
+
+}
+
+/* Header */
+
+header{
+    border-top:2px solid #FFFFFF;
+}
+#tabzilla{
+    position: relative;
+    float: right;
+}
+#tabzilla a{
+    position: relative;
+    display: block;
+    background-image: url(../media/img/tabzilla-static.png);
+    background-repeat: no-repeat;
+    width: 147px;
+    height: 37px;
+    text-indent: 120%;
+    white-space: nowrap;
+    overflow: hidden;
+
+    z-index: 10;
+}
+
+/* Main Section */
+.bg{
+    background:url(../media/img/bg.jpg);
+    background-size: cover;
+    background-position: center top;
+    height:100%;
+    height:100vh;
+    width:100%;
+    position: absolute;
+    z-index:-5;
+
+}
+.over{
+    background:  rgba(33, 40, 45, 0.7);
+    top:0px;
+    left:0px;
+    position: absolute;
+    height:100%;
+    height: 100vh;
+    width:100%;
+    color: #FFFFFF;
+    z-index:-3;
+
+}
+#main{
+    color: #FFFFFF;
+    position: relative;
+    min-height:500px;
+    height: 100vh;
+    width:100%;
+}
+#main .row{
+    margin-top: 75px;
+}
+#main h2{
+    line-height: 1.5em;
+}
+#main #presents{
+    margin-top: -25px;
+}
+#main a.reg{
+    font-size: 2em;
+    transition: all 1s;
+    border:1px solid #FFFFFF;
+    padding: 5px 15px;
+    margin-right: 25px;
+}
+#main a.reg:hover{
+    color: #FFFFFF;
+    background-color: rgba(250,150,50,0.75);
+    cursor: pointer;
+}
+
+/* About Section */
+#about ul li{
+    font-size: 1.4em;
+}
+#about ul li ul li{
+    font-size: 1em;
+}
+
+/* Register */
+#register{
+    background-color: #F3F3F3;
+}
+
+/* Organizers */
+#organizers{
+    text-align: center;
+}
+#organizers .mozk{
+    margin: auto;
+    width: 25%;
+}
+#organizers .logo{
+    width: 50%;
+}
+#organizers p{
+    text-align: center;
+}
+#organizers .ico{
+    width:100px;
+}
+
+/* Contact */
+#contact{
+    background-color: #CBDDAC;
+    text-align: center;
+}
+
+/* Reach */
+#map_canvas{
+    width: 100%;
+    height: 500px;
+}
+
+/* Footer */
+footer{
+    background: #21282F;
+    padding: 12.5px 0px;
+}
+footer p{
+    text-align:center;
+    color:#EEEEEE;
+    font-size:1em;
+}
